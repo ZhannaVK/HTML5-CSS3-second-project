@@ -1,0 +1,205 @@
+﻿@font-face {
+    font-family: MontserratLight;
+    src: url('../fonts/Montserrat/Montserrat-Light.woff2') format('woff2'), url('../fonts/Montserrat/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url('../fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url('../fonts/Raleway/Raleway-Regular.woff2') format('woff2'), url('../fonts/Raleway/Raleway-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RalewayMedium;
+    src: url('../fonts/Raleway/Raleway-Medium.woff2') format('woff2'), url('../fonts/Raleway/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RalewaySemiBold;
+    src: url('../fonts/Raleway/Raleway-SemiBold.woff2') format('woff2'), url('../fonts/Raleway/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: MontserratLight, sans-serif;
+}
+
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.wrap-padding {
+    padding-left: 323px;
+    padding-right: 323px;
+}
+
+.header {
+    height: 1024px;
+    background-color: #3d281d;
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding-top: 39px;
+    padding-bottom: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-text {
+    font-family: RalewayRegular;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.header-nav {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header-nav-item {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.header-nav-item:hover {
+    color: #C7B299;
+}
+
+.header-center {
+    align-self: center;
+    max-width: 563px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-center-top {
+    font-family: RalewayMedium;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.header-center-center {
+    font-family: RalewaySemiBold;
+    font-size: 52px;
+    line-height: 71px;
+}
+
+.header-center-bottom {
+    font-family: MontserratRegular;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.header-center-button {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    line-height: 16px;
+    width: 170px;
+    height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+    margin-top: 39px;
+    background-color: #988574;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+.header-slider {
+    width: 90px;
+    align-self: center;
+}
+
+.services {
+    color: #555555;
+    height: 380px;
+    padding-top: 84px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.services-pic {
+    margin-bottom: 30px;
+}
+
+.services-block {
+    text-align: center;
+}
+
+.services-zag {
+    font-family: RalewaySemiBold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.services-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.services-line {
+    margin-top: 30px;
+    color: #F1EEE9;
+}
+
+.realization {}
+
+.purchase {}
+
+.project {}
+
+.video {}
